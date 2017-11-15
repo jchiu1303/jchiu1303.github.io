@@ -9,122 +9,13 @@ November 10, 2017
 
 ```r
 library(ggplot2)
-```
-
-```
-## Warning: package 'ggplot2' was built under R version 3.4.2
-```
-
-```r
 library(grid)
 library(rpart)
-```
-
-```
-## Warning: package 'rpart' was built under R version 3.4.2
-```
-
-```r
 library(rattle)
-```
-
-```
-## Warning: package 'rattle' was built under R version 3.4.2
-```
-
-```
-## Rattle: A free graphical interface for data science with R.
-## Version 5.1.0 Copyright (c) 2006-2017 Togaware Pty Ltd.
-## Type 'rattle()' to shake, rattle, and roll your data.
-```
-
-```r
 library(rpart.plot)
-```
-
-```
-## Warning: package 'rpart.plot' was built under R version 3.4.2
-```
-
-```r
 library(RColorBrewer)
 library(randomForest)
-```
-
-```
-## Warning: package 'randomForest' was built under R version 3.4.2
-```
-
-```
-## randomForest 4.6-12
-```
-
-```
-## Type rfNews() to see new features/changes/bug fixes.
-```
-
-```
-## 
-## Attaching package: 'randomForest'
-```
-
-```
-## The following object is masked from 'package:rattle':
-## 
-##     importance
-```
-
-```
-## The following object is masked from 'package:ggplot2':
-## 
-##     margin
-```
-
-```r
 library(party)
-```
-
-```
-## Warning: package 'party' was built under R version 3.4.2
-```
-
-```
-## Loading required package: mvtnorm
-```
-
-```
-## Loading required package: modeltools
-```
-
-```
-## Loading required package: stats4
-```
-
-```
-## Loading required package: strucchange
-```
-
-```
-## Loading required package: zoo
-```
-
-```
-## 
-## Attaching package: 'zoo'
-```
-
-```
-## The following objects are masked from 'package:base':
-## 
-##     as.Date, as.Date.numeric
-```
-
-```
-## Loading required package: sandwich
-```
-
-```
-## Warning: package 'sandwich' was built under R version 3.4.2
 ```
 
 Import the train.csv and test.csv of the titanic dataset
